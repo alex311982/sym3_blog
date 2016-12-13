@@ -67,7 +67,7 @@ swiftmailer:
 
 ed_blog:
     entities:
-        user_model_class: "%user_model_class%"
+        user_model_class: AppBundle\Entity\User
         article_class: AppBundle\Entity\Article
         article_meta_class: AppBundle\Entity\ArticleMeta
         blog_term_class: AppBundle\Entity\Term
